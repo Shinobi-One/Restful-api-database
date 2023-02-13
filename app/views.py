@@ -18,7 +18,6 @@ class All_In_One(ModelViewSet):
     filterset_fields = ['collection']
     search_fields = ['description']
     ordering_fields =['collection']
-    pagination_class = PageNumberPagination
 
 
     def get_serializer_context(self):
